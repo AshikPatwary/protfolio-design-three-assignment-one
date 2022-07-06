@@ -149,3 +149,40 @@ body{
 .section-seven-div-box-one p{
     margin-top: 20px;
 }
+
+.section-eight{
+    margin-top: 100px;
+}
+.section-eight-div-one{
+    display: flex;
+    margin: 100px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 50px;
+    border: 3px solid red;
+    background: #f0f696;
+}
+
+.section-eight-div-box{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    margin: 15px;
+    border: 3px solid red;
+}
+.section-eight-div-box a{
+    position: absolute;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    background: #ff304f;
+}
+#section-id-one{
+    background: #fff4e3;
+}
+#section-id-two{
+    background: #e8ffe8;
+}
