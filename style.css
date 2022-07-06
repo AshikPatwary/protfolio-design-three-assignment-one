@@ -124,8 +124,28 @@ body{
     width: 100%;
 }
 .section-seven-div-box-one{
-    border: 5px solid yellow;
+    margin: 10px;
+    padding: 20px;
     height: 300px;
     width: 300px;
     margin: 10px;
+    text-align: justify;
+}
+#section-seven-id-one{
+    background: #e2f3f5;
+}
+#section-seven-id-two{
+    background: #fccde2;
+}
+#section-seven-id-three{
+    background: #f4fa9c;
+} 
+.section-seven-div-box-one i{
+    font-size: 2em;
+}
+.section-seven-div-box-one h1{
+    margin-top: 20px;
+}
+.section-seven-div-box-one p{
+    margin-top: 20px;
 }
