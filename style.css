@@ -215,7 +215,7 @@ body{
     padding: 60px;
     align-items: center;
     justify-content: center;
-    background: #a6fff2;
+    background: #a1eafb;
     padding-left: 290px;
 }
 .section-ten-div-box-one input{
@@ -241,7 +241,11 @@ footer{
     background: #000;
     text-align: center;
 }
+.footer-div-one{
+    margin-top: 15px;
+}
 footer h1{
+    padding: 10px;
     font-size: 2em;
     color: #74f9ff;
 }
