@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gentium Book Plus', serif;
+}
+.section-one{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.3)), url(images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-one-parent-one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+}
+
+.section-one-div-one{
+    font-size: 2em;
+    line-height: 60px;
+    color: #fff;
+}
+.section-one-div-three{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    margin-top: 120px;
+    background: #ff5959;
+    border-radius: 7px;
+}
+.section-one-div-three a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #fff;
+}
+.section-two{
+    margin-top: 50px;
+}
+.section-two-parent-two{
+    text-align: center;
+}
