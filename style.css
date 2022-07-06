@@ -113,3 +113,19 @@ body{
 .section-six-parent-one .section-six-div-two p{
     color: rgb(191, 191, 191);
 }
+.section-seven{
+    margin-top: 40px;
+}
+.section-seven-div-one{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.section-seven-div-box-one{
+    border: 5px solid yellow;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
