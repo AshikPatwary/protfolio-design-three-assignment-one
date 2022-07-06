@@ -5,6 +5,7 @@
 }
 body{
     font-family: 'Gentium Book Plus', serif;
+    background: #fdfdfd;
 }
 .section-one{
     height: 100vh;
@@ -27,7 +28,7 @@ body{
     line-height: 60px;
     color: #fff;
 }
-.section-one-div-three{
+#section-id{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -37,7 +38,7 @@ body{
     background: #ff5959;
     border-radius: 7px;
 }
-.section-one-div-three a{
+#section-id a{
     text-decoration: none;
     font-weight: 400;
     color: #fff;
@@ -47,4 +48,68 @@ body{
 }
 .section-two-parent-two{
     text-align: center;
+}
+.section-three{
+    margin-top: 60px;
+}
+.section-three-parent-one{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.section-three-parent-one .section-three-div-box{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    background: rgb(222, 225, 236);
+}
+.section-three-parent-one .section-three-div-box h1{
+    margin-top: 25px;
+}
+#box-two{
+    background: #fccde2;
+    color: #ff304f;
+    border: 2px solid #ff304f;
+}
+.section-four{
+    margin-top: 60px;
+}
+.section-four-parent-one{
+    text-align: center;
+}
+.section-four-parent-one input{
+    margin: 30px;
+    height: 30px;
+    width: 50%;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    outline: none;
+}
+.section-five{
+    text-align: center;
+}
+.section-five-div-one a{
+    margin: 30px;
+    padding: 10px;
+    background: #ff304f;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 6px;
+}
+.section-six{
+    margin-top: 80px;
+    text-align: center;
+}
+.section-six-parent-one .section-six-div-one h1{
+    font-size: 2em;
+}
+.section-six-parent-one .section-six-div-two p{
+    color: rgb(191, 191, 191);
 }
